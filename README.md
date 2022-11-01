@@ -19,8 +19,11 @@ Using this description uses Node Package Manager, but any package manager probab
 ```
 > cordova run browser
 ```
-Running app in android environment is not so easy. First we have to install the Android Build Tools and JDK. The [Cordova Android Development Page](https://cordova.apache.org/docs/en/11.x/guide/platforms/android/index.html) details all of the next steps for enabling mobile development.
-**NOTE**: its literally impossible to develop for android on Mac Mini 2020 with MacOS Monterey and the M1 Chip (the hardware that I'm using) .
+Running app in android environment is not so easy. First we have to install the Android Build Tools / Android Studio and JDK. These are the pieces of software taht emulate the mobile environment. The [Cordova Android Development Page](https://cordova.apache.org/docs/en/11.x/guide/platforms/android/index.html) details all of the next steps for enabling mobile development.
+**NOTE**: its impossible to develop for android on Mac Mini 2020 with MacOS Monterey and the M1 Chip (the hardware that I'm using).
+
+Running app in ios environment is not easy either. First we need to install XCode, homebrew, ios-deploy, and cocoapods. These are the pieces of software that emulate the ios mobile environment. The [Cordova iOS Development Page](https://cordova.apache.org/docs/en/11.x/guide/platforms/ios/index.html) details all of the next steps for enabling mobile development.
+**NOTE**: its impossible to develop for ios on any machine that is not iOS.
 
 ## Research Notes ##
 These are unorganized thoughts that I had while playing around in this sandbox.
@@ -31,6 +34,8 @@ I think that becasue we are doing a local first application, doing a packaged we
 Setting up the android / ios development may take more time than expected.
 
 Additionally we don't have a good way to save and auto-update the app.
+
+Overall this tool seems pretty good, but deploying it to an emulator and making sure your version is up to date feels very annoying.  It seems like you need an additional emulation tool to test your changes. There is no getting around that. I have not found a good way to simplify the edit-compile-test workflow unfortunately.
 
 ### Progressive ###
 This is basically a webiste that is up and easily accessible on the internet, but its responive so you can view and interact easily with it through your browser. Something like if you searched up reddit or something through safari or chrome.

@@ -1,7 +1,11 @@
+html {
+    background-color: #56445D;
+}
+
 body {
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 24px;
+    font-size: 16px;
     background-color: #56445D;
     margin: 0;
     color: #916a84;
