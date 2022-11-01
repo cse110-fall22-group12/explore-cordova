@@ -1,0 +1,91 @@
+body {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 24px;
+    background-color: #56445D;
+    margin: 0;
+    color: #916a84;
+}
+
+main {
+    background-color: #031A1D;
+    border-radius: 3rem;
+    padding: 3rem;
+    margin: 3rem;
+}
+
+h1 {
+ color: #9ED0E6;
+}
+
+input {
+    background-color: transparent;
+    color: #916a84;
+    border-color: #916a84;
+    border-style: solid;
+    border-radius: 3px;
+    border-width: 2px;
+    outline: none;
+}
+
+/* remove input arrows, Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* remove input arrows, Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+input:hover {
+    color: #9ED0E6;
+    border-color: #9ED0E6;
+}
+
+input:focus {
+    background-color: #16DB93;
+    color: #031A1D;
+}
+
+button {
+    background-color: transparent;
+    border-radius: 3px;
+    border-style: solid;
+    border-color: #916a84;
+    color: #916a84;
+    transition: background-color 100ms ease-out;
+}
+
+button:hover {
+    color: #9ED0E6;
+    border-color: #9ED0E6;
+}
+
+button:active {
+    background-color: #16DB93;
+    color: #031A1D;
+}
+
+#equation-container {
+    text-align: center;
+}
+
+#operations-container {
+    max-width: 300px;
+    margin-top: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: auto auto;
+    row-gap: 1rem;
+    column-gap: 1rem;
+}
+
+button#equals {
+    margin: 3rem;
+    width: 10rem;
+    height: 5rem;
+}
